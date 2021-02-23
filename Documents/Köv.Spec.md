@@ -13,4 +13,18 @@ A megrendelő szereti a modern dolgokat, többek között ezért is gondolta úg
 A megrendelő egy olyan alkalmazást szeretne, ami elősegíti az iskolában dolgozó ügyintézők feladatait, munkájukat jelentősen megkönnyíti. Továbbá célja az, a készülő szoftvernek, hogy ugyanazon adathoz egyidőben akár több ügyintéző is hozzáférhessen. A szoftver megrendelője a későbbiekben valószínűleg továb szeretné fejlesztettni a meglévő applikációt, jelenleg kísérleteznek vele, milyen mértékű pozitív visszajelzéseket kapnak, később ennek megfelelően a szoftvert valószínűleg bővíteni kell egyéb funkciókkal. Az oktatási intézménybe beiratkozott tanulúk adatainak listázása mellett, a megrendelő szeretné, ha gyorsan, egyszerűen lehetne új diákokat hozzáadni az iskolában nyilvántartottakhoz, abban az esetben, ha új diákot kell felvenni. Továbbá célja az alkalmazásnak, hogy a régi papír alapú személyes adatok frissítését modernizáljuk, tehát az alkalmazásnak képesnek kell lenni arra, hogy egy meglévő diák adatait megváltoztassuk, szükség esetén ellehesen távolítani a diákot az adatbázisból, amennyiben kiiratkozna az iskolából. Fontos számára, hogy egyértelműek legyenek a gombok, a mezők, mit, hova kell beírni, vagy éppen hova, melyik gombra kell kattintani, az egyszerű kezelhetőséget támogatja. Nem szeretne több munkanapot eltölteni azzal, hogy megtanulja használni a szoftvert. A szoftvernek készen kell állnia arra, hogy bővíthető legyen, egyéb funkciókkal.
 ## 4. Jelenlegi üzleti folyamatok
 ## 5. Igényelt üzleti folyamatok
+Egy olyan rendszert szeretnénk, hogy elkészítsenek ahol a hallgatók adatait tudjuk nyilvántartani. Fontos számunkra, hogy platform független applikációnk legyen az adatok tárolására, hogy bárhonnan elérhető legyen internet kapcsolattal.
+
+Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó elvárásaink:
+- Neptunk kód: Ezzel tudjuk azonosítani az adott hallgatót.
+- Név: A tanuló nevét tárolni kell.
+- Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.
+- Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg. 
+
+Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája. 
+
+Amit szeretnénk, hogy a Neptun kód 6 karakterből álljon a könnyebb megjegyezhetőség érdekében.
+
+Mivel intézmenyünk szakjai változhatnak az egyszerűbb kezelés miatt, úgy gondoljuk, hogy jobb lenne, ha valamilyen formában el lenne tárolva és csak meg kellene keresni, mikor a tanulóhoz hozzárendeljük. 
+
 ## 6. Követelménylista
