@@ -4,6 +4,12 @@
 
 ## 2. Jelenlegi helyzet
 
+Jelenleg az iskolában az ügyintézők a tanulókat papír alapon, úgynevezett adatlapokon tárolják mappákba rendezve. A papír alapú tárolás és feldolgozás működik, de eléggé lassú, emberi hibából adódóan a félre értések esélye jelentős. A megírt adatlapok elveszhetnek, szennyeződhetnek, megsemmisülhetnek, az emberi írás mások számára olvashatatlan lehet. 
+Az ügyintézőknek jelenleg nem áll rendelkezésükre más, munkájukat segítő eszköz, a készülő program ezért lenne nagyszerű a számukra, ahol elvégezhetik a szükséges adminisztrációkat. 
+
+A megrendelő szereti a modern dolgokat, többek között ezért is gondolta úgy, hogy itt az ideje elkészíteni az alkalmazást.
+Az alkalmazás mellett szól, hogy mostanában mindenki nagy hangsúlyt fektet a környezetvédelemre, így alkalmazásunk használatával zöldebb lehet az iskola, hogy megfeleljen a társadalmi elvárásoknak. 
+
 ## 3. Vágyálom rendszer
 
 ## 4. Jelenlegi üzleti folyamatok modellje
