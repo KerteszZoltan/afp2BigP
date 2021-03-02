@@ -24,15 +24,11 @@ Továbbá célja az alkalmazásnak, hogy a régi papír alapú személyes adatok
 
 ## 5. Jelenlegi üzleti folyamatok modellje
 
-<hr>
-
 ![Jelenlegi1](/Documents/Kepek/current1.png)
 
 <hr>
 
 ![Jelenlegi1](/Documents/Kepek/current2.png)
-
-<hr>
 
 A jelenleg az iskolában használt módszer szerint, az ügyintézőknek kézzel kell kitölteniük a tanulók adatlapjait, majd ezeket az adatlapokat mappákba szervezni és fizikai módon tárolni. Alapvetően két fajta esetet különböztetünk meg. Egyik amikor egy új diákot kell felvenni, az ő adatai alapján kitöltik az adatlapot, majd ezt azt adatlapot alapos átnézések és többszöri adategyeztetés után, lemásolják majd mappába rendezik és fizikai módon tárolják őket egy polcban. 
 
@@ -54,7 +50,6 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 ## 8. Képernyőtervek
 
 ## 9. Használati esetek
-<hr>
 
 ![Hasznalati_list](/Documents/Kepek/usecase_list.png)
 
@@ -69,8 +64,6 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 <hr>
 
 ![Hasznalati_delete](/Documents/Kepek/usecase_delete.png)
-
-<hr>
 
 ## 10. Forgatókönyvek
 
