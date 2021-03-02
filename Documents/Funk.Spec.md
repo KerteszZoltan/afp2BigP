@@ -2,7 +2,9 @@
 
 ## 1. Bevezetés
 
-## 2. Jelenlegi helyzet
+## 2. A rendszer célja, és nem céljai
+
+## 3. Jelenlegi helyzet
 
 Jelenleg az iskolában az ügyintézők a tanulókat papír alapon, úgynevezett adatlapokon tárolják mappákba rendezve. A papír alapú tárolás és feldolgozás működik, de eléggé lassú, emberi hibából adódóan a félre értések esélye jelentős. A megírt adatlapok elveszhetnek, szennyeződhetnek, megsemmisülhetnek, az emberi írás mások számára olvashatatlan lehet. 
 Az ügyintézőknek jelenleg nem áll rendelkezésükre más, munkájukat segítő eszköz, a készülő program ezért lenne nagyszerű a számukra, ahol elvégezhetik a szükséges adminisztrációkat. 
@@ -10,23 +12,23 @@ Az ügyintézőknek jelenleg nem áll rendelkezésükre más, munkájukat segít
 A megrendelő szereti a modern dolgokat, többek között ezért is gondolta úgy, hogy itt az ideje elkészíteni az alkalmazást.
 Az alkalmazás mellett szól, hogy mostanában mindenki nagy hangsúlyt fektet a környezetvédelemre, így alkalmazásunk használatával zöldebb lehet az iskola, hogy megfeleljen a társadalmi elvárásoknak. 
 
-## 3. Vágyálom rendszer
+## 4. Vágyálom rendszer
 
-## 4. Jelenlegi üzleti folyamatok modellje
+## 5. Jelenlegi üzleti folyamatok modellje
 
-## 5. Igényelt üzleti folyamatok modellje
+## 6. Igényelt üzleti folyamatok modellje
 
-## 6. Követelménylista
+## 7. Követelménylista
 
-## 7. Képernyőtervek
+## 8. Képernyőtervek
 
-## 8. Használati esetek
+## 9. Használati esetek
 
-## 9. Forgatókönyvek
+## 10. Forgatókönyvek
 
-## 10. Funkció-követelmény megfeleltetés 
+## 11. Funkció-követelmény megfeleltetés 
 
-## 11. Fogalomszótár
+## 12. Fogalomszótár
 
 - PHPMyadmin: Egy olyan szolgáltatás ahol a MySql tábla szerkezetet és a benne lévő adatokat tudjuk megjeleníteni, létrehozni, teszt lekérdezéseket írni. Ahhoz, hogy a PHPMyadmin felületet eltudjuk érni szükségünk van az Apache webszerver szolgáltatásra, amin keresztül a kommunikáció folyik a kliens és a szerver között. 
 - MySql: Egy adatbázis szerver program. Itt tároljuk el az adatbázist, amiben a táblák szerepelnek, azokban pedig az adatok. A MySql szerver fog kommunikálni a programunkkal, ami a webszerverhez kapcsolódik.
