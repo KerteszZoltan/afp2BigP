@@ -51,6 +51,23 @@ Továbbá célja az alkalmazásnak, hogy a régi papír alapú személyes adatok
 ## 8. Képernyőtervek
 
 ## 9. Használati esetek
+<hr>
+
+![Hasznalati_list](/Documents/Kepek/usecase_list.png)
+
+<hr>
+
+![Hasznalati_add](/Documents/Kepek/usecase_add.png)
+
+<hr>
+
+![Hasznalati_edit](/Documents/Kepek/usecase_edit.png)
+
+<hr>
+
+![Hasznalati_delete](/Documents/Kepek/usecase_delete.png)
+
+<hr>
 
 ## 10. Forgatókönyvek
 
