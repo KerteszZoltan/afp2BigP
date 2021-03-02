@@ -51,19 +51,28 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 
 ## 9. Használati esetek
 
+A rendszerben alapvetően négy különböző esetet különböztetünk meg. Ezen esetek, mikor az ügyintéző:
+- kilistázza a diákokat,
+- új diákot vesz fel a rendszerbe,
+- módosítja egy már meglévő diák adatait,
+- töröl egy diákot az adatbázisból.    
+
 ![Hasznalati_list](/Documents/Kepek/usecase_list.png)
 
-<hr>
+A fentebbi képen az látható, hogy az ügyintézőnek milyen műveletet kell elvégeznie, hogy kilistázza a rendszerben szereplő diákokat. 
+
 
 ![Hasznalati_add](/Documents/Kepek/usecase_add.png)
 
-<hr>
+A fentebbi képen az látható, hogy az ügyintézőnek milyen műveletet kell elvégeznie, hogy új diákot tudjon felvenni a rendszerbe.
 
 ![Hasznalati_edit](/Documents/Kepek/usecase_edit.png)
 
-<hr>
+A fentebbi képen az látható, hogy az ügyintézőnek milyen műveletet kell elvégeznie, hogy módosítsa a már létező diák adatait. 
 
 ![Hasznalati_delete](/Documents/Kepek/usecase_delete.png)
+
+A fentebbi képen az látható, hogy az ügyintézőnek milyen műveletet kell elvégeznie, hogy törölje a diákot a rendszerből.
 
 ## 10. Forgatókönyvek
 
