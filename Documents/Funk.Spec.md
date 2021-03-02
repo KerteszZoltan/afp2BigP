@@ -54,6 +54,14 @@ Továbbá célja az alkalmazásnak, hogy a régi papír alapú személyes adatok
 
 ## 10. Forgatókönyvek
 
+Az ügyintéző egy új diákot szeretne felvinni a nyilvántartásba, ehez nem kell mást tennie, csak elindítani az általunk készített programot, majd a megfelelő gombra kattintva, már viheti is fel az új tanuló adatait.
+
+Az ügyintéző egy már a nyilvántartásban szereplő diákot szeretne eltávolítani, ehez nem kell mást tennie, csupán megnéznie a törleni kívánt diák egyedi azonosítóját (Neptun kód), majd ezt kimásolva, a megfelelő gombra kattintva, egy új felület jelenik meg előtte, ahová bemásolja, ezt a kódot, és a tanuló törlésre kerül a nyilvántartásból.
+
+Az ügyintéző egy, már a nyilvántartásban szereplő diák adatait szeretné módosítani, ehez nem kell mást tenni, csupán megnéznie a módosítani kívánt diák egyedi azonosítóját (Neptun kód), majd ezt kimásolva, a megfelelő gombra kattintva, egy új felület jelenik meg előtte, ahová beírhatja az új adatait.
+
+Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, csak elkell indítania a programot, ilyenkor ugyanis a nyilvántartásban található diákok automatikusan kilistázódnak, amennyiben egy specifikus diák adataira vagyunk kiváncsiak, nincs más teendőnk mint a megfelelő mezőbe belekattintva, megadni a keresendő diák egyedi azonosítóját (Neptun kód).
+
 ## 11. Funkció-követelmény megfeleltetés 
 
 ## 12. Fogalomszótár
