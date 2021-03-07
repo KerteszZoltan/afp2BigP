@@ -12,7 +12,12 @@
 |                |Alpha teszt|
 |                |Béta teszt|
 |                  |Projekt átadása|
- 
+A projekten dolgozók:
+![projektVezetok](Kepek/members.png)
+
+A projekt menedzselését és felügyelését végző személyek:
+![projektVezetok](Kepek/managers.png)
+
 ## 3. Jelenlegi üzleti folyamatok
  
 ## 4. Igényelt üzleti folyamatok
