@@ -85,27 +85,34 @@ Az alkalmazás felületét és a mögötte rejlő logikát Java Spring-el, valam
 ## 12. Funkcionális terv
 
 Rendszerszereplők:
-Felhasználó
+
+
+    Felhasználó
+
 
 Rendszer használati esetek és lefutásaik:
-Felhasználó:
-    -Tanulók listázása
-    -Új tanuló hozzáadása
-    -Tanuló törlése
-    -Tanuló szerkesztése
-    -Egy tanuló adatainak kilistázása
+
+    Felhasználó:
+                - Tanulók listázása
+                - Új tanuló hozzáadása
+                - Tanuló törlése
+                - Tanuló szerkesztése
+                - Egy tanuló adatainak kilistázása
 
 Menü hierarchiák:
-Főmenü:
-    -Tanulók listázása
-    -Új tanuló hozzáadása
-    -Tanuló törlése
-    -Tanuló szerkesztése
-Tanulók listázása szak szerint:
-    -CS tanulók kilistázása
-    -ITL tanulók kilistázása
-    -BI tanulók kilistázása
-    -TI tanulók kilistázása
+
+    Főmenü:
+            -Tanulók listázása
+            -Új tanuló hozzáadása
+            -Tanuló törlése
+            -Tanuló szerkesztése
+
+
+    Tanulók listázása szak szerint:
+                                    -CS tanulók kilistázása
+                                    -ITL tanulók kilistázása
+                                    -BI tanulók kilistázása
+                                    -TI tanulók kilistázása
 
 
 ## 13. Fizikai környezet
