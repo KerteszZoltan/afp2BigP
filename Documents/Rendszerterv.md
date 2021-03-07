@@ -4,6 +4,12 @@
  
 ## 2.  Projektterv
 
+A projekten dolgozók:
+![projektVezetok](Kepek/members.png)
+
+A projekt menedzselését és felügyelését végző személyek:
+![projektVezetok](Kepek/managers.png)
+
 |  Dátum | Tevékenység  |
 |-----------------------|--------------------------|
 |    2021.02.02-03.09   | Dokumentációk elkészítése és véglegesítése | 
@@ -12,11 +18,6 @@
 |                |Alpha teszt|
 |                |Béta teszt|
 |                  |Projekt átadása|
-A projekten dolgozók:
-![projektVezetok](Kepek/members.png)
-
-A projekt menedzselését és felügyelését végző személyek:
-![projektVezetok](Kepek/managers.png)
 
 ## 3. Jelenlegi üzleti folyamatok
  
