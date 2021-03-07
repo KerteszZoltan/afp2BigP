@@ -77,7 +77,12 @@ languageknowladge megszorítások
 ## 9. Implementációs terv
 
 Az alkalmazás felületét és a mögötte rejlő logikát Java Spring-el, valamint mySql adatbázissal valósítjuk meg. Igyekszünk a felhasználó számára csak a működéshez feltétlenül szükséges mezőket, gombokat megjeleníteni, nem célunk, hogy kezelhetetlennek tűnjön az alkalmazás. Az általunk választott fejlesztőkörnyezet az InteliJ Idea Ultimate legújabb verziója. A csapat minden tagja egyetértett a fejlesztőkörnyezet választásában, a tesztek könnyen elvégezhetőek benne, legenerálhatóak.
-Funkcionális terv
+
+## 10. Teszt terv
+ 
+## 11. Telepítési terv
+ 
+## 12. Funkcionális terv
 
 Rendszerszereplők:
 Felhasználó
@@ -102,13 +107,7 @@ Tanulók listázása szak szerint:
     -BI tanulók kilistázása
     -TI tanulók kilistázása
 
- 
-## 10. Teszt terv
- 
-## 11. Telepítési terv
- 
-## 12. Funkcionális terv
- 
+
 ## 13. Fizikai környezet
  
 ## 14. Karbantartási terv
