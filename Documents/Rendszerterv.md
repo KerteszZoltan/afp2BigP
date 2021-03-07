@@ -3,6 +3,15 @@
 ## 1.  A rendszer célja
  
 ## 2.  Projektterv
+
+|  Dátum | Tevékenység  |
+|-----------------------|--------------------------|
+|    2021.02.02-03.09   | Dokumentációk elkészítése és véglegesítése | 
+|         2021.03.09-         |Fejlesztés megkezdése|
+|         2020.03.09-         |Unit tesztek| 
+|                |Alpha teszt|
+|                |Béta teszt|
+|                  |Projekt átadása|
  
 ## 3. Jelenlegi üzleti folyamatok
  
