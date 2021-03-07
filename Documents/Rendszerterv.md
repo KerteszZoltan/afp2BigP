@@ -75,6 +75,33 @@ languageknowladge megszorítások
 | students_FK | languageknowladge | Id | studentstable | neptun_code | |
 
 ## 9. Implementációs terv
+
+Az alkalmazás felületét és a mögötte rejlő logikát Java Spring-el, valamint mySql adatbázissal valósítjuk meg. Igyekszünk a felhasználó számára csak a működéshez feltétlenül szükséges mezőket, gombokat megjeleníteni, nem célunk, hogy kezelhetetlennek tűnjön az alkalmazás. Az általunk választott fejlesztőkörnyezet az InteliJ Idea Ultimate legújabb verziója. A csapat minden tagja egyetértett a fejlesztőkörnyezet választásában, a tesztek könnyen elvégezhetőek benne, legenerálhatóak.
+Funkcionális terv
+
+Rendszerszereplők:
+Felhasználó
+
+Rendszer használati esetek és lefutásaik:
+Felhasználó:
+    -Tanulók listázása
+    -Új tanuló hozzáadása
+    -Tanuló törlése
+    -Tanuló szerkesztése
+    -Egy tanuló adatainak kilistázása
+
+Menü hierarchiák:
+Főmenü:
+    -Tanulók listázása
+    -Új tanuló hozzáadása
+    -Tanuló törlése
+    -Tanuló szerkesztése
+Tanulók listázása szak szerint:
+    -CS tanulók kilistázása
+    -ITL tanulók kilistázása
+    -BI tanulók kilistázása
+    -TI tanulók kilistázása
+
  
 ## 10. Teszt terv
  
