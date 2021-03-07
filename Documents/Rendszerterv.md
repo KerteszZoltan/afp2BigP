@@ -5,6 +5,8 @@
 ## 2.  Projektterv
 
 A projekten dolgozók:
+
+
 ![projektVezetok](Kepek/members.png)
 
 A projekt menedzselését és felügyelését végző személyek:
