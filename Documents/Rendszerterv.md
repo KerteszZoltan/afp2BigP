@@ -93,6 +93,8 @@ Az alkalmazás felületét és a mögötte rejlő logikát Java Spring-el, valam
 ## 10. Teszt terv
  
 ## 11. Telepítési terv
+
+Az alkalmazás telepítéséhez csupán egy számítógépre van szükség, amin van egy webböngésző, valamint az áltaunk használt fejlesztőikörnyezet. Azért van szükség, mert a fejlesztés alatt álló alkalmazást, fejlesztőkörnyezettel lehet föltelepíteni a készülékre. A fejlesztés után, mint más nem play áruház-béli alkalmazást lehet telepíteni az eszközön, feltéve, ha engedélyezve van az, hogy a nem play áruházból való alkalmazást is lehessen telepíteni az eszközre.
  
 ## 12. Funkcionális terv
 
