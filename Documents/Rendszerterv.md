@@ -54,7 +54,7 @@ Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó
 •	Név: A tanuló nevét tárolni kell.<br />
 •	Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.<br />
 •	Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg.<br />
-Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája.
+Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája.<br />
 
 Amit szeretnénk, hogy a Neptun kód 6 karakterből álljon a könnyebb megjegyezhetőség érdekében.
 
@@ -119,6 +119,14 @@ Az alkalmazás felületét és a mögötte rejlő logikát Java Spring-el, valam
 
 ## 10. Teszt terv
  
+Alpha teszt:
+Az alpha tesztet a fejlesztők végzik, amelyben a rendszer összeomlását próbálják elérni remélhetőleg sikertelenül. Amennyiben felderítenek egy hibát jelentést írnak róla, majd javítják. Az alpha teszt során külön tesztelni kell a fontosabb funkciókat, mintpedig: az adatbázisba való beillesztést, lekérdezést és törlést.<br />
+<br />
+Beta teszt:
+Az alpha tesztet követően a felhasználók elvégzik a béta tesztet, melynek során a programban maradt súlyosabb hibák felderítésre kerülnek, majd a fejlesztők javítják őket.
+A teszt során a stabilitás, letisztultság növelése a cél. (A tesztekről naplót kell készíteni, amely alapján esetleges hibáknál kitölthető a hibajelentő.)
+
+
 ## 11. Telepítési terv
 
 Az alkalmazás telepítéséhez csupán egy számítógépre van szükség, amin van egy webböngésző, valamint az áltaunk használt fejlesztőikörnyezet. Azért van szükség, mert a fejlesztés alatt álló alkalmazást, fejlesztőkörnyezettel lehet föltelepíteni a készülékre. A fejlesztés után, mint más nem play áruház-béli alkalmazást lehet telepíteni az eszközön, feltéve, ha engedélyezve van az, hogy a nem play áruházból való alkalmazást is lehessen telepíteni az eszközre.
