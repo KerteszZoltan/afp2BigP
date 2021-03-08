@@ -45,6 +45,10 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 
 ![Jelenlegi1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly1.png)
 
+<hr>
+
+![Jelenlegi1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly2.png)
+
 
 ## 7. Követelménylista
 
