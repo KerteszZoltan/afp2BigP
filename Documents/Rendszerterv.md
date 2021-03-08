@@ -136,6 +136,11 @@ Menü hierarchiák:
 •	Operációs rendszer: Windows/Linux
 •	Szükséges applikáció a program megfelelő működésének érdekében: Webböngésző (Chrome,Opera)
 •	Konfiguráció: Nem specifikus.
+2.	Szerver:
+•	Eszköz: Kliens
+•	Specifikáció: Klienssel ekvivalens
+•	Operációs rendszer: Klienssel ekvivalens
+•	Komponensek: MySql adatbázis
 
 
 ## 14. Karbantartási terv
