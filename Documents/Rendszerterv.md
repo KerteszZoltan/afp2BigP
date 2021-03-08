@@ -41,7 +41,26 @@ A jelenleg az iskolában használt módszer szerint, az ügyintézőknek kézzel
 A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata, ebben az esetben az ügyintézőnek megkell keresni a mappa szerkezetből az adott tanuló mappáját, ebből kiszedni azt a lapot melyen a változtatni kívánt adat szerepel, nyomtatni egy új lapot, majd azt kitölteni az új adatnak megfelelően, végezetül már csak visszakell tenni a mappába az adatlapot, azt pedig a mappaszerkezetbe.
  
 ## 4. Igényelt üzleti folyamatok
+
+![AdatbazisModell](Kepek/IgenyeltUzlFolyMod1.png)
+
+![AdatbazisModell](Kepek/IgenyeltUzlFolyMod2.png)
  
+Fontos számunkra, hogy platform független applikációnk legyen az adatok tárolására, hogy bárhonnan elérhető legyen internet kapcsolattal.
+
+Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó elvárásaink:
+
+•	Neptun kód: Ezzel tudjuk azonosítani az adott hallgatót.
+•	Név: A tanuló nevét tárolni kell.
+•	Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.
+•	Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg.
+Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája.
+
+Amit szeretnénk, hogy a Neptun kód 6 karakterből álljon a könnyebb megjegyezhetőség érdekében.
+
+Mivel az intézmény szakjai változhatnak az egyszerűbb kezelés miatt, úgy gondoljuk, hogy jobb lenne, ha valamilyen formában el lenne tárolva és csak meg kellene keresni, mikor a tanulóhoz hozzárendeljük.
+
+
 ## 5. Követelménylista
  
 ## 6. Absztrakciós modell
