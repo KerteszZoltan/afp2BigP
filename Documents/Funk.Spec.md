@@ -133,6 +133,14 @@ Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, cs
 
 ## 11. Funkció-követelmény megfeleltetés 
 
+| Funkció | Követelmény |
+| A program elindításakor az adatbázisban<br> található diákok kilistázódnak. | Az ügyintéző megtudja jeleníteni az összes<br> tanuló adatait |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
 ## 12. Fogalomszótár
 
 - PHPMyadmin: Egy olyan szolgáltatás ahol a MySql tábla szerkezetet és a benne lévő adatokat tudjuk megjeleníteni, létrehozni, teszt lekérdezéseket írni. Ahhoz, hogy a PHPMyadmin felületet eltudjuk érni szükségünk van az Apache webszerver szolgáltatásra, amin keresztül a kommunikáció folyik a kliens és a szerver között. 
