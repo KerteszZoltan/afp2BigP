@@ -70,7 +70,7 @@ Mivel intézmenyünk szakjai változhatnak az egyszerűbb kezelés miatt, úgy g
 | Sorszám | Megnevezés | Követelményről bővebben | Kifejtés |
 |---------|------------|-------------------------|----------|
 | K001 | Tanulók listázása | 3. Fejezet | Az ügyintéző megtudja jeleníteni az összes tanuló adatait |
-| K002 | Tanuló hozzáadása | 3. Fejezet<br> 5. Fejezet | Az ügyintéző képes legyen új tanulót felvenni a nyilvántartásba
+| K002 | Tanuló hozzáadása | 3. Fejezet<br> 5. Fejezet | Az ügyintéző képes legyen új tanulót felvenni a nyilvántartásba |
 | K003 | Tanuló frissítése | 3. Fejezet | Az ügyintéző képes módosítan egy már ott tanuló adatait |
 | K004 | Tanuló törlése | 3. Fejezet | Az ügyintéző képes törölni a tanulót a nyilvántartásból|
 | K005 | Tanuló nyelvvizsga | 5. Fejezet | Rendelkezik-e a tanuló nyelvvizsgával és, hogy milyen nyelvű és szintű az |
@@ -134,8 +134,9 @@ Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, cs
 ## 11. Funkció-követelmény megfeleltetés 
 
 | Funkció | Követelmény |
-| A program elindításakor az adatbázisban<br> található diákok kilistázódnak. | Az ügyintéző megtudja jeleníteni az összes<br> tanuló adatait |
-|  |  |
+|---------|-------------|
+| A program elindításakor az adatbázisban található diákok kilistázódnak. | Az ügyintéző megtudja jeleníteni az összes tanuló adatait |
+| A megfelelő gombra kattintva az ügyintézőnek lehetősége van új tanulót felvinni az adatbázisba | Az ügyintéző legyen képes új tanulót felvenni a nyilvántartásba |
 |  |  |
 |  |  |
 |  |  |
