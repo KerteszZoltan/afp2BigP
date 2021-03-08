@@ -37,6 +37,8 @@ A projekt menedzselését és felügyelését végző személyek:
 ## 5. Követelménylista
  
 ## 6. Absztrakciós modell
+
+A program működése során a felhasználó egy féle szerepkörben figyelhető meg. A felhasználó képes tanulókat kezelni az adatbázisban, képes hozzáadni új tanulót, szerkeszteni egy már meglévő tanuló adatait, valamint törölheti őket. A felhasználó képes egy vagy akár az összes tanuló kilistázására.
  
 ## 7. Architekturális terv
  
