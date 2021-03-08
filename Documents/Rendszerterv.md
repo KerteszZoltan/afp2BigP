@@ -144,3 +144,8 @@ Menü hierarchiák:
 
 
 ## 14. Karbantartási terv
+
+A szoftveren a későbbiekben nem kell nagyobb karbantartásokat elvégezni. Az esetleges karbantartások a következőből állhatnak:
+•	Tesztelés frissebb verziójú android használatával. Hiba észlelése esetén azok javítása.
+•	Esetleges YouTube változtatásokra való reagálás.
+•	Igény esetén új funkciók hozzáadása.
