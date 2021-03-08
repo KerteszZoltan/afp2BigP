@@ -51,6 +51,19 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 
 Egy olyan rendszert szeretnénk, hogy elkészítsenek ahol a hallgatók adatait tudjuk nyilvántartani. Fontos számunkra, hogy platform független applikációnk legyen az adatok tárolására, hogy bárhonnan elérhető legyen internet kapcsolattal.
 
+Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó elvárásaink:
+
+•	Neptun kód: Ezzel tudjuk azonosítani az adott hallgatót.
+•	Név: A tanuló nevét tárolni kell.
+•	Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.
+•	Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg.
+Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája.
+
+Amit szeretnénk, hogy a Neptun kód 6 karakterből álljon a könnyebb megjegyezhetőség érdekében.
+
+Mivel intézmenyünk szakjai változhatnak az egyszerűbb kezelés miatt, úgy gondoljuk, hogy jobb lenne, ha valamilyen formában el lenne tárolva és csak meg kellene keresni, mikor a tanulóhoz hozzárendeljük.
+
+
 
 ## 7. Követelménylista
 
