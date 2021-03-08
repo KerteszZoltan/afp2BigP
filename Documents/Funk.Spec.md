@@ -43,11 +43,13 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 
 ## 6. Igényelt üzleti folyamatok modellje
 
-![Jelenlegi1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly1.png)
+![Igényelt1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly1.png)
 
 <hr>
 
-![Jelenlegi1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly2.png)
+![Igényelt1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly2.png)
+
+Egy olyan rendszert szeretnénk, hogy elkészítsenek ahol a hallgatók adatait tudjuk nyilvántartani. Fontos számunkra, hogy platform független applikációnk legyen az adatok tárolására, hogy bárhonnan elérhető legyen internet kapcsolattal.
 
 
 ## 7. Követelménylista
