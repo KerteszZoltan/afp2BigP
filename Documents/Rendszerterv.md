@@ -131,4 +131,11 @@ Menü hierarchiák:
 
 ## 13. Fizikai környezet
  
+1.	Kliens:
+•	Eszköz: Számítógép/Laptop
+•	Operációs rendszer: Windows/Linux
+•	Szükséges applikáció a program megfelelő működésének érdekében: Webböngésző (Chrome,Opera)
+•	Konfiguráció: Nem specifikus.
+
+
 ## 14. Karbantartási terv
