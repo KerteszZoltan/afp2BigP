@@ -137,7 +137,7 @@ Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, cs
 |---------|-------------|
 | A program elindításakor az adatbázisban található diákok kilistázódnak. | Az ügyintéző megtudja jeleníteni az összes tanuló adatait |
 | A megfelelő gombra kattintva az ügyintézőnek lehetősége van új tanulót felvinni az adatbázisba | Az ügyintéző legyen képes új tanulót felvenni a nyilvántartásba |
-|  |  |
+| A megfelelő gombra kattintva az ügyintéző képes egy, már az adatbázisban lévő diák adatait módosítani | Az ügyintéző képes módosítani egy már ott tanuló adatait |
 |  |  |
 |  |  |
 |  |  |
