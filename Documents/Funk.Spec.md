@@ -139,7 +139,7 @@ Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, cs
 | A megfelelő gombra kattintva az ügyintézőnek lehetősége van új tanulót felvinni az adatbázisba | Az ügyintéző legyen képes új tanulót felvenni a nyilvántartásba |
 | A megfelelő gombra kattintva az ügyintéző képes egy, már az adatbázisban lévő diák adatait módosítani | Az ügyintéző képes módosítani egy már ott tanuló adatait |
 | A megfelelő gombra kattintva az ügyintéző képes egy diákot eltávolítani az adatbázisból | Az ügyintéző képes diákot törölni a nyilvántartásból |
-|  |  |
+| A kérdéses tanuló egyedi azonosítójára kattintva bejön a tanuló adatlapja, ahol látható, hogy rendelkezik-e nyelvvizsgával | Rendelkezik-e a tanuló nyelvvizsgával és hogy milyen szintű az |
 |  |  |
 
 ## 12. Fogalomszótár
