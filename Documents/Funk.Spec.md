@@ -140,7 +140,7 @@ Az ügyintéző listázni szeretné a tanulókat, ehez nem kell mást tennie, cs
 | A megfelelő gombra kattintva az ügyintéző képes egy, már az adatbázisban lévő diák adatait módosítani | Az ügyintéző képes módosítani egy már ott tanuló adatait |
 | A megfelelő gombra kattintva az ügyintéző képes egy diákot eltávolítani az adatbázisból | Az ügyintéző képes diákot törölni a nyilvántartásból |
 | A kérdéses tanuló egyedi azonosítójára kattintva bejön a tanuló adatlapja, ahol látható, hogy rendelkezik-e nyelvvizsgával | Rendelkezik-e a tanuló nyelvvizsgával és hogy milyen szintű az |
-|  |  |
+| A szoftver letisztult, nincs szükség hosszas tanulásra, a gombok, mezők egyértelműek | A megrendelő nem infrmatikus, nem szeretné tanulni a szoftvert, a lehető legegyszerűbb adminisztrátor felületet kéri, egyértelmű gombokkal, mezőkkel |
 
 ## 12. Fogalomszótár
 
