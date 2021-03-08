@@ -78,6 +78,12 @@ Mivel intézmenyünk szakjai változhatnak az egyszerűbb kezelés miatt, úgy g
 
 ## 8. Képernyőtervek
 
+![Képernyőterv1](/Documents/Kepek/FunkSpecKepernyoTerv1.png)
+
+<hr>
+
+
+
 ## 9. Használati esetek
 
 A rendszerben alapvetően négy különböző esetet különböztetünk meg. Ezen esetek, mikor az ügyintéző:
