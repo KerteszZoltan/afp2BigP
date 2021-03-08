@@ -43,6 +43,9 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
 
 ## 6. Igényelt üzleti folyamatok modellje
 
+![Jelenlegi1](/Documents/Kepek/FunkSpecIgényeltÜzlFoly1.png)
+
+
 ## 7. Követelménylista
 
 | Sorszám | Megnevezés | Követelményről bővebben | Kifejtés |
