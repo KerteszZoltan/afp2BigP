@@ -48,12 +48,12 @@ A másik eset, amikor egy már beirakozott tanulónak változik valamilyen adata
  
 Fontos számunkra, hogy platform független applikációnk legyen az adatok tárolására, hogy bárhonnan elérhető legyen internet kapcsolattal.
 
-Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó elvárásaink:
+Amit a tanulókról nyilván szeretnénk tartani adatok és a hozzájuk tartozó elvárásaink:<br />
 
-•	Neptun kód: Ezzel tudjuk azonosítani az adott hallgatót.
-•	Név: A tanuló nevét tárolni kell.
-•	Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.
-•	Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg.
+•	Neptun kód: Ezzel tudjuk azonosítani az adott hallgatót.<br />
+•	Név: A tanuló nevét tárolni kell.<br />
+•	Szemeszter: Ez arról szól, hogy a tanuló hány félévet végzett el eddig.<br />
+•	Szak: Itt tároljuk el, hogy a tanuló milyen szakon van jelenleg.<br />
 Szeretnénk tárolni még ezeken kívül, hogy a tanuló rendelkezik-e nyelvvizsgával. Elgondolásunk szerint tároljuk azt is, hogy milyen fokozatú a nyelvvizsgája.
 
 Amit szeretnénk, hogy a Neptun kód 6 karakterből álljon a könnyebb megjegyezhetőség érdekében.
