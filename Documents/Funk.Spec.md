@@ -82,7 +82,9 @@ Mivel intézmenyünk szakjai változhatnak az egyszerűbb kezelés miatt, úgy g
 
 <hr>
 
+![Képernyőterv1](/Documents/Kepek/FunkSpecKepernyoTerv2.png)
 
+<hr>
 
 ## 9. Használati esetek
 
