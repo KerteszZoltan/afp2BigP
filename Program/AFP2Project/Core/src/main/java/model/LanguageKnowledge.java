@@ -37,4 +37,11 @@ public class LanguageKnowledge {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "LanguageKnowledge{" +
+                "language='" + language + '\'' +
+                ", level='" + level + '\'' +
+                '}';
+    }
 }
