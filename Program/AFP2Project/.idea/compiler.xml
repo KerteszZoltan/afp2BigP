@@ -6,22 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-<<<<<<< Updated upstream
         <module name="Controller" />
-=======
-        <module name="dao_relational" />
->>>>>>> Stashed changes
-        <module name="Core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="console" target="1.5" />
-      <module name="controller" target="8" />
-      <module name="core" target="8" />
-      <module name="dao_json" target="8" />
-      <module name="service" target="8" />
-      <module name="util" target="1.5" />
-      <module name="web" target="1.7" />
+    <bytecodeTargetLevel>
+      <module name="AFP2Project" target="1.5" />
+      <module name="Controller" target="1.5" />
+      <module name="Core" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
