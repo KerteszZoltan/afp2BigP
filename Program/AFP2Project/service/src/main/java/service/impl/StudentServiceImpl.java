@@ -44,5 +44,19 @@ public class StudentServiceImpl implements StudentsService {
     }
 
 
+    public void updateStudent(String name, String id, @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate birth_date, Department department, int passed_semesters, List<LanguageKnowledge> languageKnowledge) throws TheStudentIsTooOld, NameCannotBeEmpty, TheStudentIsTooYoung, IncorrectNeptunCode {
+        sDao.updateStudent(name,id,birth_date,department,passed_semesters,languageKnowledge);
+    }
+
+    public void deleteStudent(String id) {
+        sDao.removeStudent(id);
+    }
+
+
+    public Collection<Student> readAllStudentOfDepartment(Department department) {
+        Collection<Student> students = getAllStudent();
+        Collection<Student> result = students.stream().filter(s -> s.getDepartment() == department).collect(Collectors.toList());
+        return result;
+    }
 
 }
