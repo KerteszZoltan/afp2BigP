@@ -1,4 +1,4 @@
 package exceptions;
 
-public class IncorrectNeptunCode {
+public class IncorrectNeptunCode extends Throwable {
 }
