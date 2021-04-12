@@ -2,7 +2,7 @@ package service;
 
 import exceptions.IncorrectNeptunCode;
 import exceptions.NameCannotBeEmpty;
-import beadando.exceptions.TheStudentIsTooOld;
+import exceptions.TheStudentIsTooOld;
 import exceptions.TheStudentIsTooYoung;
 import model.Department;
 import model.LanguageKnowledge;

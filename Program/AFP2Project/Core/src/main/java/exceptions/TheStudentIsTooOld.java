@@ -1,4 +1,4 @@
 package exceptions;
 
-public class TheStudentIsTooOld {
+public class TheStudentIsTooOld extends Throwable{
 }
