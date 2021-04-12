@@ -34,6 +34,15 @@ public class StudentServiceImpl implements StudentsService {
         return sDao.readAllStudent();
     }
 
+    @Override
+    public Student getStudentById(String id) {
+        return sDao.readStudent(id);
+    }
+
+    public Student getStudentById() {
+        return null;
+    }
+
 
 
 }
