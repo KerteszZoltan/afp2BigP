@@ -1,4 +1,4 @@
 package exceptions;
 
-public class NameCannotBeEmpty {
+public class NameCannotBeEmpty extends Throwable{
 }
