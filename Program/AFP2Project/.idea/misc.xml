@@ -9,7 +9,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Core/pom.xml" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/controller/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/dao_relational/pom.xml" />
+>>>>>>> Stashed changes
       </list>
     </option>
     <option name="ignoredFiles">
@@ -17,7 +21,6 @@
         <option value="$PROJECT_DIR$/console/pom.xml" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/dao_json/pom.xml" />
-        <option value="$PROJECT_DIR$/dao_relational/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
         <option value="$PROJECT_DIR$/util/pom.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
