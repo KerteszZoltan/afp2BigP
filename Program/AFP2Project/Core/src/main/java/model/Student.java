@@ -9,6 +9,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.logging.Logger;
 
@@ -22,9 +23,9 @@ public class Student {
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private LocalDate birth_date;
 
-
+    private Department department;
     private int passed_semesters;
-
+    private List<LanguageKnowledge> languageKnowledge;
 
     Logger logger = Logger.getLogger(String.valueOf(this.getClass()));
 
@@ -42,7 +43,8 @@ public class Student {
 
     public void setName(String name) throws Exception {
         if (name.length() == 0 || name.trim().length() == 0){
-            throw new Exception("Error", null);
+            throw new Exception();
+
         }
         this.name = name;
     }
@@ -51,14 +53,16 @@ public class Student {
         return id;
     }
 
-    public void setId(String id) throws Exception {
+    //Valamiért egy ilyen setter is kellet neki
+    public void setId(String id) throws Exception  {
         if (id.length() != 6 || id.trim().length() != 6){
-            throw new Exception("Error", null);
+            throw new Exception();
+
         }
         this.id = id;
     }
 
-    public void setId() throws Exception {
+    public void setId() throws Exception  {
         Random rnd = new Random();
         String id = new String();
         ArrayList<Character> chars = new ArrayList<>();
@@ -71,7 +75,7 @@ public class Student {
             id += chars.get(rnd.nextInt(36 - 1) + 1);
         }
         if (id.length() != 6 || id.trim().length() != 6){
-            throw new Exception("Error", null);
+            throw new Exception();
         }
         this.id = id;
     }
@@ -84,8 +88,28 @@ public class Student {
         this.birth_date = birth_date;
     }
 
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    public int getPassed_semesters() {
+        return passed_semesters;
+    }
+
     public void setPassed_semesters(int passed_semesters) {
         this.passed_semesters = passed_semesters;
+    }
+
+    public List<LanguageKnowledge> getLanguageKnowledge() {
+        return languageKnowledge;
+    }
+
+    public void setLanguageKnowledge(List<LanguageKnowledge> languageKnowledge) {
+        this.languageKnowledge = languageKnowledge;
     }
 
     @Override
@@ -94,7 +118,9 @@ public class Student {
                 "name='" + name + '\'' +
                 ", ID: ='" + id + '\'' +
                 ", birth_date=" + birth_date +
+                ", department=" + department +
                 ", passed_semesters=" + passed_semesters +
+                ", languageKnowledge=" + languageKnowledge +
                 '}';
     }
 }
