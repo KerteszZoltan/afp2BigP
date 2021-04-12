@@ -5,13 +5,15 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
+import org.apache.log4j.Logger;
 import org.springframework.format.annotation.DateTimeFormat;
+import exceptions.IncorrectNeptunCode;
+import exceptions.NameCannotBeEmpty;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.logging.Logger;
 
 public class Student {
     private String name;
@@ -27,7 +29,7 @@ public class Student {
     private int passed_semesters;
     private List<LanguageKnowledge> languageKnowledge;
 
-    Logger logger = Logger.getLogger(String.valueOf(this.getClass()));
+    Logger logger = Logger.getLogger(this.getClass());
 
     public Student() {
         logger.info("A new student has been created");
@@ -41,10 +43,9 @@ public class Student {
         return name;
     }
 
-    public void setName(String name) throws Exception {
+    public void setName(String name) throws NameCannotBeEmpty {
         if (name.length() == 0 || name.trim().length() == 0){
-            throw new Exception();
-
+            throw new NameCannotBeEmpty();
         }
         this.name = name;
     }
@@ -54,15 +55,14 @@ public class Student {
     }
 
     //Valamiért egy ilyen setter is kellet neki
-    public void setId(String id) throws Exception  {
+    public void setId(String id) throws IncorrectNeptunCode {
         if (id.length() != 6 || id.trim().length() != 6){
-            throw new Exception();
-
+            throw new IncorrectNeptunCode();
         }
         this.id = id;
     }
 
-    public void setId() throws Exception  {
+    public void setId() throws IncorrectNeptunCode {
         Random rnd = new Random();
         String id = new String();
         ArrayList<Character> chars = new ArrayList<>();
@@ -75,7 +75,7 @@ public class Student {
             id += chars.get(rnd.nextInt(36 - 1) + 1);
         }
         if (id.length() != 6 || id.trim().length() != 6){
-            throw new Exception();
+            throw new IncorrectNeptunCode();
         }
         this.id = id;
     }
