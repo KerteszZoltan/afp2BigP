@@ -24,5 +24,16 @@ public class StudentServiceImpl implements StudentsService {
         this.sDao = sDao;
     }
 
+    public void addStudent(Student student) throws IOException {
+        sDao.createStudent(student);
+    }
+
+    public Collection<Student> getAllStudent() {
+        Collection<Student> result = sDao.readAllStudent();
+        logger.info("The database contains " + result.size() + " student(s)");
+        return sDao.readAllStudent();
+    }
+
+
 
 }
