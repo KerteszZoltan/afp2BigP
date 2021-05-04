@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Configuration;
 import uni.eszterhazy.project.dao.StudentDAO;
 import uni.eszterhazy.project.dao.relational.StudentDAORelation;
 import uni.eszterhazy.project.service.studentsService;
-import uni.eszterhazy.project.service.impl.StudentServiceImpl;
+import uni.eszterhazy.project.service.impl.studentsServiceImpl;
 
 @Configuration
 @ComponentScan({"uni.eszterhazy.project.controller"})
@@ -18,6 +18,6 @@ public class MyConfig {
 
     @Bean
     public studentsService studentsService(StudentDAO sDao){
-        return new StudentServiceImpl(sDao);
+        return new studentsServiceImpl(sDao);
     }
 }

@@ -14,7 +14,7 @@
 
     <bean id="mysql" class="uni.eszterhazy.project.dao.relational.StudentDAORelation">
     </bean>
-    <bean id="studentsService" class="uni.eszterhazy.project.service.impl.StudentServiceImpl">
+    <bean id="studentsService" class="uni.eszterhazy.project.service.impl.studentsServiceImpl">
         <constructor-arg ref="mysql"/>
     </bean>
 
