@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.Collection;
 import java.util.List;
 
-public interface studentsService {
+public interface StudentService {
     void addStudent(Student student) throws IOException;
     Collection<Student> getAllStudent();
     Student getStudentById(String id);
@@ -22,3 +22,4 @@ public interface studentsService {
     Collection<Student> readAllStudentOfDepartment(Department department);
 
 }
+
