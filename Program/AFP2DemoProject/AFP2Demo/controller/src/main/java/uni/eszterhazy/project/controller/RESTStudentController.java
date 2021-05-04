@@ -49,7 +49,7 @@ public class RESTStudentController {
         //studentsService.addStudent(student);
         return "";
     }*/
-    
+
     @PostMapping(value = "students", consumes = MediaType.APPLICATION_JSON_VALUE, produces="application/json;charset=utf-8")
     public String addStudent(@RequestBody Student student) throws IOException, InvalidParams, StudentNotFound {
         try{
