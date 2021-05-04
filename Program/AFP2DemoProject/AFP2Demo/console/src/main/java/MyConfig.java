@@ -7,7 +7,7 @@ import uni.eszterhazy.beadando.service.StudentsService;
 import uni.eszterhazy.beadando.service.impl.StudentServiceImpl;
 
 @Configuration
-@ComponentScan({"uni.eszterhazy.beadando.controller"})
+@ComponentScan({"uni.eszterhazy.project.controller"})
 public class MyConfig {
 
     //Bean-eket vissza adó metódusok
