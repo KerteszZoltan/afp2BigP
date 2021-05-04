@@ -18,11 +18,6 @@ public class RESTStudentController {
     @Autowired
     uni.eszterhazy.project.service.studentsService studentsService;
 
-    /*
-    @GetMapping(value = "students")
-    public Collection<Student> getAllStudent(){
-        return studentsService.getAllStudent();
-    }*/
 
     @GetMapping(value = "students/{id:[A-Za-z0-9]{6}}")
     public Student getStudentById(@PathVariable(name = "id") String id){
@@ -43,13 +38,6 @@ public class RESTStudentController {
         } return  studentsService.getAllStudent();
     }
 
-    /*
-    @PostMapping(value = "students", consumes = MediaType.APPLICATION_JSON_VALUE, produces = "application/json;charset=utf-8")
-    public String addStudent(@RequestBody Student student){
-        System.out.println("Plus: " + student);
-        //studentsService.addStudent(student);
-        return "";
-    }*/
 
     @PostMapping(value = "students", consumes = MediaType.APPLICATION_JSON_VALUE, produces="application/json;charset=utf-8")
     public String addStudent(@RequestBody Student student) throws IOException, Exception {
@@ -64,13 +52,6 @@ public class RESTStudentController {
     }
 
 
-    /*
-    @PostMapping(value = "dolgozok",consumes = MediaType.APPLICATION_JSON_VALUE, produces = "application/json;charset=utf-8")
-    public  String addDolgozo(@RequestBody Dolgozo dolgozo) throws DolgozoAlreadyAdded {
-        System.out.println("Hozzaadando: "+dolgozo);
-        dolgozoService.addDolgozo(dolgozo);
-        return "Új dolgozó került hozzáadásra a köv azonosítóval: "+dolgozo.getId();
-    }*/
 
 
 
