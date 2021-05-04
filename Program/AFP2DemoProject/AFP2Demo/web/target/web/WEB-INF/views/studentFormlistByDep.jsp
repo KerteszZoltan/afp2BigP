@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false"%>
 
-<html style="background: linear-gradient(90deg, #69b7eb, #b3dbd3, #00FF7F)">
+<html>
     <title>Title</title>
 </head>
     <body style="text-align: center", topmargin="100px">
