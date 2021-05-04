@@ -90,6 +90,34 @@ public class StudentController {
         }
     }
 
+    //List by departments
+    @GetMapping(value="/listByDep")
+    public ModelAndView listByDep(){
+        ModelAndView mav = new ModelAndView("studentFormlistByDep.jsp");
+        mav.addObject("students",service.readAllStudentOfDepartment(Department.CS));
+        return mav;
+    }
+
+    @GetMapping(value="/listByDepBI")
+    public ModelAndView listByDepBI(){
+        ModelAndView mav = new ModelAndView("studentFormlistByDep.jsp");
+        mav.addObject("students",service.readAllStudentOfDepartment(Department.BI));
+        return mav;
+    }
+
+    @GetMapping(value="/listByDepTM")
+    public ModelAndView listByDepTM(){
+        ModelAndView mav = new ModelAndView("studentFormlistByDep.jsp");
+        mav.addObject("students",service.readAllStudentOfDepartment(Department.TM));
+        return mav;
+    }
+
+    @GetMapping(value="/listByDepITL")
+    public ModelAndView listByDepITL(){
+        ModelAndView mav = new ModelAndView("studentFormlistByDep.jsp");
+        mav.addObject("students",service.readAllStudentOfDepartment(Department.ITL));
+        return mav;
+    }
 
 
 
