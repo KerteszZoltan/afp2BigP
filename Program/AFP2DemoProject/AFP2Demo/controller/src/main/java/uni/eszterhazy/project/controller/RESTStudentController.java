@@ -25,7 +25,14 @@ public class RESTStudentController {
 
     @GetMapping(value = "students/{id:[A-Za-z0-9]{6}}")
     public Student getStudentById(@PathVariable(name = "id") String id){
-        return studentsService.getStudentById(id);
+
+        try{
+            return studentsService.getStudentById(id);
+        }
+        catch (StudentNotFound e){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Student with the following ID is not available: " + e.getMessage(), e)
+        }
+
     }
 
     @GetMapping(value = "students")
@@ -42,12 +49,17 @@ public class RESTStudentController {
         //studentsService.addStudent(student);
         return "";
     }*/
-
-
+    
     @PostMapping(value = "students", consumes = MediaType.APPLICATION_JSON_VALUE, produces="application/json;charset=utf-8")
-    public String addStudent(@RequestBody Student student) {
-        System.out.println("Plus: "+student);
-        return "A new student has been added, with the following neptun code:  "+student.getId();
+    public String addStudent(@RequestBody Student student) throws IOException, InvalidParams, StudentNotFound {
+        try{
+            System.out.println("Plus: "+student);
+            studentsService.addStudent(student);
+            return "A new student has been added, with the following neptun code:  "+student.getId();
+        } catch (StudentNotFound e){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Student with the following ID already in use: "+e.getMessage(), e);
+        }
+
     }
 
 
