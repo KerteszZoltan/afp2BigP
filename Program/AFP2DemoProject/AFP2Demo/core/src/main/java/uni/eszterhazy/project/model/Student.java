@@ -1,11 +1,11 @@
-package uni.eszterhazy.beadando.model;
+package uni.eszterhazy.project.model;
 
 import org.apache.log4j.Logger;
 import org.springframework.format.annotation.DateTimeFormat;
-import uni.eszterhazy.beadando.exceptions.IncorrectNeptunCode;
-import uni.eszterhazy.beadando.exceptions.NameCannotBeEmpty;
-import uni.eszterhazy.beadando.exceptions.TheStudentIsTooOld;
-import uni.eszterhazy.beadando.exceptions.TheStudentIsTooYoung;
+import uni.eszterhazy.project.exceptions.IncorrectNeptunCode;
+import uni.eszterhazy.project.exceptions.NameCannotBeEmpty;
+import uni.eszterhazy.project.exceptions.TheStudentIsTooOld;
+import uni.eszterhazy.project.exceptions.TheStudentIsTooYoung;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

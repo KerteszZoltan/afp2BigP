@@ -1,18 +1,18 @@
-package uni.eszterhazy.beadando.dao.relational;
+package uni.eszterhazy.project.dao.relational;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
-import uni.eszterhazy.beadando.dao.StudentDAO;
-import uni.eszterhazy.beadando.exceptions.IncorrectNeptunCode;
-import uni.eszterhazy.beadando.exceptions.NameCannotBeEmpty;
-import uni.eszterhazy.beadando.exceptions.TheStudentIsTooOld;
-import uni.eszterhazy.beadando.exceptions.TheStudentIsTooYoung;
-import uni.eszterhazy.beadando.model.Department;
-import uni.eszterhazy.beadando.model.LanguageKnowledge;
-import uni.eszterhazy.beadando.model.Student;
+import uni.eszterhazy.project.dao.StudentDAO;
+import uni.eszterhazy.project.exceptions.IncorrectNeptunCode;
+import uni.eszterhazy.project.exceptions.NameCannotBeEmpty;
+import uni.eszterhazy.project.exceptions.TheStudentIsTooOld;
+import uni.eszterhazy.project.exceptions.TheStudentIsTooYoung;
+import uni.eszterhazy.project.model.Department;
+import uni.eszterhazy.project.model.LanguageKnowledge;
+import uni.eszterhazy.project.model.Student;
 
 import java.time.LocalDate;
 import java.util.Collection;

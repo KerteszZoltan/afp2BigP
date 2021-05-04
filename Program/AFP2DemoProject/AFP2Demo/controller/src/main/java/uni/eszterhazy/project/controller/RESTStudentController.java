@@ -1,13 +1,14 @@
-package uni.eszterhazy.beadando.controller;
+package uni.eszterhazy.project.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import uni.eszterhazy.beadando.model.Department;
-import uni.eszterhazy.beadando.model.Student;
-import uni.eszterhazy.beadando.service.StudentsService;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.web.server.ResponseStatusException;
+import uni.eszterhazy.project.model.Department;
+import uni.eszterhazy.project.model.Student;
 
+import java.io.IOException;
 import java.util.Collection;
 
 @RestController
@@ -15,7 +16,7 @@ import java.util.Collection;
 public class RESTStudentController {
 
     @Autowired
-    StudentsService studentsService;
+    uni.eszterhazy.project.service.studentsService studentsService;
 
     /*
     @GetMapping(value = "students")
@@ -29,8 +30,8 @@ public class RESTStudentController {
         try{
             return studentsService.getStudentById(id);
         }
-        catch (StudentNotFound e){
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Student with the following ID is not available: " + e.getMessage(), e)
+        catch (Exception e){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Student with the following ID is not available: " + e.getMessage(), e);
         }
 
     }
@@ -51,12 +52,12 @@ public class RESTStudentController {
     }*/
 
     @PostMapping(value = "students", consumes = MediaType.APPLICATION_JSON_VALUE, produces="application/json;charset=utf-8")
-    public String addStudent(@RequestBody Student student) throws IOException, InvalidParams, StudentNotFound {
+    public String addStudent(@RequestBody Student student) throws IOException, Exception {
         try{
             System.out.println("Plus: "+student);
             studentsService.addStudent(student);
             return "A new student has been added, with the following neptun code:  "+student.getId();
-        } catch (StudentNotFound e){
+        } catch (Exception e){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Student with the following ID already in use: "+e.getMessage(), e);
         }
 

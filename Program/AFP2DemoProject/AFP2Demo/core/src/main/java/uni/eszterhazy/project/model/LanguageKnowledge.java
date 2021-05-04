@@ -1,4 +1,4 @@
-package uni.eszterhazy.beadando.model;
+package uni.eszterhazy.project.model;
 
 public class LanguageKnowledge {
     private String language;

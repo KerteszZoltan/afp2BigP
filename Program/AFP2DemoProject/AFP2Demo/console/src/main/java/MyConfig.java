@@ -1,10 +1,10 @@
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import uni.eszterhazy.beadando.dao.StudentDAO;
-import uni.eszterhazy.beadando.dao.relational.StudentDAORelation;
-import uni.eszterhazy.beadando.service.StudentsService;
-import uni.eszterhazy.beadando.service.impl.StudentServiceImpl;
+import uni.eszterhazy.project.dao.StudentDAO;
+import uni.eszterhazy.project.dao.relational.StudentDAORelation;
+import uni.eszterhazy.project.service.studentsService;
+import uni.eszterhazy.project.service.impl.StudentServiceImpl;
 
 @Configuration
 @ComponentScan({"uni.eszterhazy.project.controller"})
@@ -17,7 +17,7 @@ public class MyConfig {
     }
 
     @Bean
-    public StudentsService studentsService(StudentDAO sDao){
+    public studentsService studentsService(StudentDAO sDao){
         return new StudentServiceImpl(sDao);
     }
 }

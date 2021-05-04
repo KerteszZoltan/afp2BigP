@@ -5,6 +5,8 @@
 <html>
 <head>
     <title>${student.id}</title>
+    <link rel="stylesheet"
+          href="https://bootswatch.com/4/superhero/bootstrap.min.css"/>
 </head>
 <body>
 <table>

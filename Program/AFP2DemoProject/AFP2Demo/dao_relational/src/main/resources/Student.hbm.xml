@@ -1,22 +1,22 @@
 <hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
-    <class name="uni.eszterhazy.beadando.model.Student" table="studentsTable">
+    <class name="uni.eszterhazy.project.model.Student" table="studentsTable">
         <id name="id" type="string" column="neptun_code"/>
         <property name="name" type="string" column="Name"/>
-        <property name="getBirthDate" column="BirthDate" type="LocalDate" />
+        <property name="birth_date" column="birth_date" type="LocalDate" />
         <property name="passed_semesters" column="PassedSemester"  type="int"/>
         <property name="department" column="Department">
             <type name="org.hibernate.type.EnumType">
-                <param name="enumClass">uni.eszterhazy.beadando.model.Department</param>
+                <param name="enumClass">uni.eszterhazy.project.model.Department</param>
                 <param name="useNamed">true</param>
             </type>
         </property>
         <list name="languageKnowledge" cascade="all" fetch="join">
                 <key column="studentsTable" not-null="true"/>
                 <list-index column="idx"/>
-                <one-to-many class="uni.eszterhazy.beadando.model.LanguageKnowledge"/>
+                <one-to-many class="uni.eszterhazy.project.model.LanguageKnowledge"/>
         </list>
     </class>
-    <class name="uni.eszterhazy.beadando.model.LanguageKnowledge" table="languageKnowledgeTable">
+    <class name="uni.eszterhazy.project.model.LanguageKnowledge" table="languageKnowledgeTable">
         <id name="id" type="int" column="id">
             <generator class="native"/>
         </id>

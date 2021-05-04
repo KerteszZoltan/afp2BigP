@@ -1,4 +1,4 @@
-package uni.eszterhazy.beadando.exceptions;
+package uni.eszterhazy.project.exceptions;
 
 public class IncorrectNeptunCode extends Throwable {
 }

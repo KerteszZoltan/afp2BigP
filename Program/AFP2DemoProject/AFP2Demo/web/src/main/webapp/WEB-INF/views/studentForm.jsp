@@ -6,6 +6,8 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet"
+          href="https://bootswatch.com/4/superhero/bootstrap.min.css"/>
 </head>
 <body>
 <form:form method="post" action="addStudent" modelAttribute="student">
