@@ -73,6 +73,23 @@ public class StudentController {
     }
 
 
+    //Update
+    @GetMapping(value = "/updateStudent")
+    public String updateStudentForm(Model model){
+        model.addAttribute("Departments", Department.values());
+        return "studentFormUpdate.jsp";
+    }
+
+    @PostMapping(value = "updateStudent")
+    public String updateStudent(@ModelAttribute("student") Student student, Model model) throws TheStudentIsTooOld, NameCannotBeEmpty, TheStudentIsTooYoung, IncorrectNeptunCode, StudentNotFound {
+        try {
+            service.updateStudent(student.getName(), student.getId(), student.getBirth_date(), student.getDepartment(), student.getPassed_semesters(), student.getLanguageKnowledge());
+            return "redirect:students/";
+        } catch (StudentNotFound e){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Student with the following ID isn't avaliable: "+e.getMessage(),e);
+        }
+    }
+
 
 
 
