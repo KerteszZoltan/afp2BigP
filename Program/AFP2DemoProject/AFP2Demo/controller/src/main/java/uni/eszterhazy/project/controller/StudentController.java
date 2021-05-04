@@ -56,5 +56,24 @@ public class StudentController {
     }
 
 
+    //Delete
+    @GetMapping(value="deleteStudent")
+    public String deleteStudentForm(Model model){
+        return "studentFormDelete.jsp";
+    }
+
+    @PostMapping(value = "deleteStudent")
+    public String deleteStudent(@ModelAttribute("student") Student student, Model model) throws StudentNotFound {
+        try{
+            service.deleteStudent(student.getId());
+            return "redirect:students/";
+        } catch (StudentNotFound e){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Student with the following ID isn't avaliable: "+e.getMessage(),e);
+        }
+    }
+
+
+
+
 
 }
