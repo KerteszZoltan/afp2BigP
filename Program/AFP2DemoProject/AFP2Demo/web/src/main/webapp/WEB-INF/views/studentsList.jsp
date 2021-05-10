@@ -6,6 +6,7 @@
 <%@ page isELIgnored="false"%>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <title>Students</title>
     <link rel="stylesheet"
           href="https://bootswatch.com/4/superhero/bootstrap.min.css"/>
@@ -15,7 +16,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Hát ez buzi</a>
+        <a class="navbar-brand" href="#">Logo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,26 +50,25 @@
     <c:forEach items="${students}" var="stud">
         <tr><td><a href="${pageContext.servletContext.contextPath}/student/${stud.id}">${stud.id}</a></td><td>${stud.name}</td><td>${stud.birth_date}</td></tr>
     </c:forEach>
-        </table>
+    </table>
+    <form action="${pageContext.servletContext.contextPath}/addStudent">
+        <input type="submit" value="addStudent">
+    </form>
+
+    <form action="${pageContext.servletContext.contextPath}/deleteStudent">
+        <input type="submit" value="Delete student">
+    </form>
+
+    <form class="d-flex justify-content" action="${pageContext.servletContext.contextPath}/updateStudent">
+        <input type="submit" value="Update student">
+    </form>
 
 </c:if>
 <c:if test="${empty students}">
     <c:out value="There are no students in the database"/></c:if>
 
-<form action="${pageContext.servletContext.contextPath}/">
-    <input type="submit" value="Home">
-</form>
-<form action="${pageContext.servletContext.contextPath}/addStudent">
-    <input type="submit" value="addStudent">
-</form>
- Delete student:
-<form action="${pageContext.servletContext.contextPath}/deleteStudent">
-    <input type="submit" value="Delete student">
-</form>
- Update student:
-<form action="${pageContext.servletContext.contextPath}/updateStudent">
-    <input type="submit" value="Update student">
-</form>
+
+
 </div>
 
 </body>
