@@ -9,3 +9,4 @@
 | 5. REST - GET | 2021.05.10 | Sikeres | Szűrés(BI) kérés 200-as kóddal lefut (OK) | Kertész Zoltán
 | 6. REST - GET | 2021.05.10 | Sikeres | Szűrés(TM) kérés 200-as kóddal lefut (OK) | Kertész Zoltán
 | 7. REST - GET | 2021.05.10 | Sikeres | Szűrés(ITL) kérés 200-as kóddal lefut (OK) | Kertész Zoltán
+| 7. REST - GET | 2021.05.10 | Sikeres | Neptunkód alapján kérés 200-as kóddal lefut (OK) | Kertész Zoltán
