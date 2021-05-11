@@ -10,3 +10,11 @@
 | 6. REST - GET | 2021.05.10 | Sikeres | Szűrés(TM) kérés 200-as kóddal lefut (OK) | Kertész Zoltán
 | 7. REST - GET | 2021.05.10 | Sikeres | Szűrés(ITL) kérés 200-as kóddal lefut (OK) | Kertész Zoltán
 | 7. REST - GET | 2021.05.10 | Sikeres | Neptunkód alapján kérés 200-as kóddal lefut (OK) | Kertész Zoltán
+
+## Unit Tesztek
+|Azonosító | Dátum | Eredmény | Megjegyzés | Tesztelő|
+|----------|-------|----------|------------|---------|
+| 1. | 2021.05.10 | Sikeres | Sikeresen létrehozta az új tanulót | Kertész Zoltán
+| 2. | 2021.05.10 | Sikeres | Sikeresen lekérte a megadott tanulót | Kertész Zoltán
+| 3. | 2021.05.10 | Sikeres | Sikeresen frissítette a megadott tanuló adatait | Kertész Zoltán
+| 4. | 2021.05.10 | Sikeres | Sikeresen törölte a megadott tanulót | Kertész Zoltán
