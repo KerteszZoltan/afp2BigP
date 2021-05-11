@@ -19,3 +19,4 @@
 | 3. | 2021.05.10 | Sikeres | Sikeresen frissítette a megadott tanuló adatait | Kertész Zoltán
 | 4. | 2021.05.10 | Sikeres | Sikeresen törölte a megadott tanulót | Kertész Zoltán
 | 8. | 2021.05.10 | Sikeres | Sikeres tesztelése a DummyControllernek| Hamar Dávid
+| 9. | 2021.05.10 | Sikeres | Sikeres tesztelése a RESTStudentControllernek| Hamar Dávid
