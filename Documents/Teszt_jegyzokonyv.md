@@ -14,10 +14,23 @@
 ## Unit Tesztek
 |Azonosító | Dátum | Eredmény | Megjegyzés | Tesztelő|
 |----------|-------|----------|------------|---------|
-| 1. | 2021.05.10 | Sikeres | Sikeresen létrehozta az új tanulót | Kertész Zoltán
-| 2. | 2021.05.10 | Sikeres | Sikeresen lekérte a megadott tanulót | Kertész Zoltán
-| 3. | 2021.05.10 | Sikeres | Sikeresen frissítette a megadott tanuló adatait | Kertész Zoltán
-| 4. | 2021.05.10 | Sikeres | Sikeresen törölte a megadott tanulót | Kertész Zoltán
+| 1. | 2021.05.10 | Sikeres | Sikeresen létrehozta az új tanulót | Kertész Zoltán - Széles-Kovács Gyula
+| 2. | 2021.05.10 | Sikeres | Sikeresen lekérte a megadott tanulót | Kertész Zoltán - Széles-Kovács Gyula
+| 3. | 2021.05.10 | Sikeres | Sikeresen frissítette a megadott tanuló adatait | Kertész Zoltán - Széles-Kovács Gyula
+| 4. | 2021.05.10 | Sikeres | Sikeresen törölte a megadott tanulót | Kertész Zoltán - Széles-Kovács Gyula
 | 8. | 2021.05.10 | Sikeres | Sikeres tesztelése a DummyControllernek| Hamar Dávid
 | 9. | 2021.05.10 | Sikeres | Sikeres tesztelése a RESTStudentControllernek| Hamar Dávid
 | 10.| 2021.05.10 | Sikeres | Sikeres tesztelése a StudentControllernek| Hamar Dávid
+
+## Modell Tesztek
+|Azonosító | Dátum | Eredmény | Megjegyzés | Tesztelő|
+|----------|-------|----------|------------|---------|
+| 1. | 2021.05.10 | Sikeres | Beállította az ID-t - setId | Kertész Zoltán - Széles-Kovács Gyula
+| 2. | 2021.05.10 | Sikeres | Megváltozott az ID - getId| Kertész Zoltán - Széles-Kovács Gyula
+| 3. | 2021.05.10 | Sikeres | Nem lehet hibás ID-t megadni - setId| Kertész Zoltán - Széles-Kovács Gyula
+| 4. | 2021.05.10 | Sikeres | Beállította a nevet - setName| Kertész Zoltán - Széles-Kovács Gyula
+| 5. | 2021.05.10 | Sikeres | Megváltozott a név - getName| Kertész Zoltán - Széles-Kovács Gyula
+| 6. | 2021.05.10 | Sikeres | Beállította a születési dátumot - setBirth_Date| Kertész Zoltán - Széles-Kovács Gyula
+| 7. | 2021.05.10 | Sikeres | Megváltozott a születési dátum - getBirth_Date| Kertész Zoltán - Széles-Kovács Gyula
+| 8. | 2021.05.10 | Sikeres | Beállította a departmentet - setDepartment | Kertész Zoltán - Széles-Kovács Gyula
+| 9. | 2021.05.10 | Sikeres | Beállította az ID-t - getDepartment | Kertész Zoltán - Széles-Kovács Gyula
