@@ -258,3 +258,48 @@
 2021-05-11 12:10:25, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
 2021-05-11 12:10:25, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2021-05-11 12:10:26, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab6678b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-05-11 12:50:41, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-05-11 12:50:42, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-11 12:50:43, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-05-11 12:50:43, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/students?serverTimezone=UTC]
+2021-05-11 12:50:43, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2021-05-11 12:50:43, INFO, HHH10001003: Autocommit mode: false
+2021-05-11 12:50:43, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-05-11 12:50:43, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-11 12:50:44, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7be3a9ce] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-05-11 12:51:17, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-05-11 12:51:18, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-11 12:51:19, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-05-11 12:51:19, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/students?serverTimezone=UTC]
+2021-05-11 12:51:19, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2021-05-11 12:51:19, INFO, HHH10001003: Autocommit mode: false
+2021-05-11 12:51:20, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-05-11 12:51:20, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-11 12:51:21, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ab6678b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:54:36, INFO, A new student has been created
+2021-05-11 12:55:15, INFO, A new student has been created
+2021-05-11 12:55:30, INFO, A new student has been created
+2021-05-11 12:59:23, INFO, A new student has been created
+2021-05-11 12:59:30, INFO, A new student has been created
+2021-05-11 12:59:56, INFO, A new student has been created
+2021-05-11 13:00:11, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
+2021-05-11 13:00:24, INFO, A new student has been created
