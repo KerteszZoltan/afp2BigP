@@ -1,4 +1,4 @@
-package uni.eszterhazy.project.controller;
+/*package uni.eszterhazy.project.controller;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -35,3 +35,5 @@ class RESTStudentControllerTest {
 
     }
 }
+
+ */

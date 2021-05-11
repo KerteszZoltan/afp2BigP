@@ -18,7 +18,7 @@ public interface studentsService {
     Collection<Student> getAllStudent();
     Student getStudentById(String id);
     void updateStudent(String name, String id, LocalDate birth_date, Department department, int passed_semesters, List<LanguageKnowledge> languageKnowledge) throws TheStudentIsTooOld, NameCannotBeEmpty, TheStudentIsTooYoung, IncorrectNeptunCode;
-    void deleteStudent(String id);
+    void deleteStudent(String id) throws IncorrectNeptunCode;
     Collection<Student> readAllStudentOfDepartment(Department department);
 
 }

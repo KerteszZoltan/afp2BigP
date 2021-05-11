@@ -18,6 +18,6 @@ public interface StudentDAO {
     Collection<Student> readAllStudent();
     Student readStudent(String id);
     void updateStudent(String name, String id, LocalDate birth_date, Department department, int passed_semesters, List<LanguageKnowledge> languageKnowledge) throws NameCannotBeEmpty, IncorrectNeptunCode, TheStudentIsTooYoung, TheStudentIsTooOld;
-    void removeStudent(String id);
+    void removeStudent(String id) throws IncorrectNeptunCode;
     Collection<Student> readAllStudentOfDepartment(Department department);
 }

@@ -50,7 +50,7 @@ public class studentsServiceImpl implements studentsService {
         sDao.updateStudent(name,id,birth_date,department,passed_semesters,languageKnowledge);
     }
 
-    public void deleteStudent(String id) {
+    public void deleteStudent(String id) throws IncorrectNeptunCode {
         sDao.removeStudent(id);
     }
 

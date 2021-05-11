@@ -62,13 +62,18 @@ public class StudentDAORelation implements StudentDAO {
         session.close();
     }
 
-    public void removeStudent(String id) {
-        Session session=factory.openSession();
-        Transaction tx=session.beginTransaction();
-        Student obj = session.get( Student.class,id);
-        session.delete(obj);
-        tx.commit();
-        session.close();
+    public void removeStudent(String id) throws IncorrectNeptunCode {
+        try {
+            Session session = factory.openSession();
+            Transaction tx = session.beginTransaction();
+            Student obj = session.get(Student.class, id);
+            session.delete(obj);
+            tx.commit();
+            session.close();
+        }
+        catch(Exception e) {
+            throw new IncorrectNeptunCode();
+        }
     }
 
     public Collection<Student> readAllStudentOfDepartment(Department department) {

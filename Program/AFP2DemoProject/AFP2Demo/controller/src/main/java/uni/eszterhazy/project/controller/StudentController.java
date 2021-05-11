@@ -69,7 +69,7 @@ public class StudentController {
     }
 
     @PostMapping(value = "deleteStudent")
-    public String deleteStudent(@ModelAttribute("student") Student student, Model model) throws Exception {
+    public String deleteStudent(@ModelAttribute("student") Student student, Model model) throws Exception, IncorrectNeptunCode {
         try{
             service.deleteStudent(student.getId());
             return "redirect:students/";

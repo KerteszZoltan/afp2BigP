@@ -23,6 +23,15 @@ public class Student {
 
     Logger logger = Logger.getLogger(this.getClass());
 
+    public Student(String name, String id, LocalDate birth_date, Department department, int passed_semesters, List<LanguageKnowledge> languageKnowledge) {
+        this.name = name;
+        this.id = id;
+        this.birth_date = birth_date;
+        this.department = department;
+        this.passed_semesters = passed_semesters;
+        this.languageKnowledge = languageKnowledge;
+    }
+
     public Student() {
         logger.info("A new student has been created");
     }
