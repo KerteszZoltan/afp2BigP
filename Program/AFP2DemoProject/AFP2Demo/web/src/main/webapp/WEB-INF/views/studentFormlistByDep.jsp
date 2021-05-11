@@ -52,6 +52,6 @@
 </c:if>
 <c:if test="${empty students}">
     <c:out value="There are no students in the database in this departament"/></c:if><br><br>
-    
+
 </body>
 </html>

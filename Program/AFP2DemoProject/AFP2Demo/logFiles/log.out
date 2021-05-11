@@ -507,3 +507,45 @@
 2020-11-30 19:50:21, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
 2020-11-30 19:50:21, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 2020-11-30 19:50:21, INFO, HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost/students?serverTimezone=UTC]
+2021-05-11 10:08:06, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-05-11 10:08:07, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-11 10:08:08, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-05-11 10:08:08, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/students?serverTimezone=UTC]
+2021-05-11 10:08:08, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2021-05-11 10:08:08, INFO, HHH10001003: Autocommit mode: false
+2021-05-11 10:08:08, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-05-11 10:08:08, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-11 10:08:10, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3c0fbd3a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-05-11 10:08:10, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, The database contains 5 student(s)
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:08:10, INFO, A new student has been created
+2021-05-11 10:09:48, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-05-11 10:09:49, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-11 10:09:51, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-05-11 10:09:51, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/students?serverTimezone=UTC]
+2021-05-11 10:09:51, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2021-05-11 10:09:51, INFO, HHH10001003: Autocommit mode: false
+2021-05-11 10:09:51, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-05-11 10:09:51, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-05-11 10:09:52, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6be7bf6d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-05-11 10:09:52, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, The database contains 5 student(s)
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
+2021-05-11 10:09:52, INFO, A new student has been created
