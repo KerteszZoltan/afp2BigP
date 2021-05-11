@@ -23,12 +23,12 @@ A projekt menedzselését és felügyelését végző személyek:
 
 |  Dátum | Tevékenység  |
 |-----------------------|--------------------------|
-|    2021.02.02-03.09   | Dokumentációk elkészítése és véglegesítése | 
-|         2021.03.09-         |Fejlesztés megkezdése|
-|         2020.03.09-         |Unit tesztek| 
-|                |Alpha teszt|
-|                |Béta teszt|
-|                  |Projekt átadása|
+| 2021.02.02-03.09   | Dokumentációk elkészítése és véglegesítése | 
+| 2021.03.09- 2021.05.11        |Fejlesztés megkezdése|
+| 2021.03.09- 2021.05.11        |Unit tesztek| 
+| 2021.05.02 |Alpha teszt|
+| 2021.05.08 |Béta teszt|
+| 2021.05.11 |Projekt átadása|
 
 ## 3. Jelenlegi üzleti folyamatok
 
